@@ -109,7 +109,7 @@ const BranchMap = () => {
   const active = branches.find((b) => b.id === activeBranch);
 
   return (
-    <section id="branches" ref={sectionRef} className="section-dark py-32">
+    <section id="branches" ref={sectionRef} className="py-32" style={{ backgroundColor: 'hsl(var(--section-soft))' }}>
       <div className="container mx-auto px-6">
         <div className="map-header text-center mb-16" dir="rtl">
           <div className="divider-gold mb-6" />
