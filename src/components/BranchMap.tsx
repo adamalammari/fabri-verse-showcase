@@ -236,7 +236,7 @@ const BranchMap = () => {
                   )
                 }
               >
-                <h4 className="font-display text-lg font-bold text-primary-foreground mb-2">
+                <h4 className="font-display text-lg font-bold text-foreground mb-2">
                   {branch.name}
                 </h4>
                 {activeBranch === branch.id && (
