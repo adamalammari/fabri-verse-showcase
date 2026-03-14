@@ -171,11 +171,11 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background: hsl(var(--obsidian-deep));
+  background: hsl(var(--background));
 }
 
 ::-webkit-scrollbar-thumb {
-  background: hsl(var(--gold) / 0.5);
+  background: hsl(var(--gold) / 0.4);
   border-radius: 3px;
 }
 
