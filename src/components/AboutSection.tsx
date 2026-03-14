@@ -79,7 +79,7 @@ const AboutSection = () => {
               <br />
               <span className="text-gradient-gold">بلمسة عصرية</span>
             </h2>
-            <p className="text-primary-foreground/60 font-body text-lg leading-relaxed mb-8">
+            <p className="text-muted-foreground font-body text-lg leading-relaxed mb-8">
               منذ أكثر من ربع قرن، نصنع الأثواب بأيدي حرفيين مهرة، نجمع بين أصالة الحرفة وأحدث تقنيات التصنيع لنقدم لكم ثوباً يليق بمقامكم.
             </p>
             <a href="#process" className="btn-gold inline-block">مراحل التصنيع</a>
