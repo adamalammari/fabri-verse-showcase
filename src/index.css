@@ -126,9 +126,9 @@
 
   .overlay-dark {
     background: linear-gradient(180deg, 
-      hsl(var(--obsidian-deep) / 0.7) 0%, 
-      hsl(var(--obsidian-deep) / 0.4) 50%,
-      hsl(var(--obsidian-deep) / 0.8) 100%
+      hsl(var(--obsidian-deep) / 0.4) 0%, 
+      hsl(var(--obsidian-deep) / 0.15) 50%,
+      hsl(var(--obsidian-deep) / 0.5) 100%
     );
   }
 
