@@ -113,10 +113,10 @@ const BranchMap = () => {
       <div className="container mx-auto px-6">
         <div className="map-header text-center mb-16" dir="rtl">
           <div className="divider-gold mb-6" />
-          <h2 className="font-display text-4xl md:text-6xl font-bold text-primary-foreground mb-4">
+          <h2 className="font-display text-4xl md:text-6xl font-bold text-foreground mb-4">
             فروعنا في <span className="text-gradient-gold">المملكة</span>
           </h2>
-          <p className="text-primary-foreground/50 font-body text-lg">
+          <p className="text-muted-foreground font-body text-lg">
             نصل إليكم أينما كنتم بأعلى مستوى من الخدمة
           </p>
         </div>
