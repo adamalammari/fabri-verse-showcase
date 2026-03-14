@@ -228,7 +228,7 @@ const BranchMap = () => {
                 className={`p-5 border cursor-pointer transition-all duration-500 ${
                   activeBranch === branch.id
                     ? "border-gold bg-gold/10"
-                    : "border-primary-foreground/10 hover:border-gold/30"
+                    : "border-border hover:border-gold/30"
                 }`}
                 onClick={() =>
                   setActiveBranch(
