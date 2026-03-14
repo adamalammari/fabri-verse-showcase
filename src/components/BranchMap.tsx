@@ -241,7 +241,7 @@ const BranchMap = () => {
                 </h4>
                 {activeBranch === branch.id && (
                   <div className="space-y-2 mt-3 animate-fade-up">
-                    <div className="flex items-center gap-2 text-primary-foreground/60 text-sm">
+                    <div className="flex items-center gap-2 text-muted-foreground text-sm">
                       <MapPin className="w-4 h-4 text-gold" />
                       {branch.address}
                     </div>
