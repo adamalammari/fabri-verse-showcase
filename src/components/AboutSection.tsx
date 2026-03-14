@@ -87,7 +87,7 @@ const AboutSection = () => {
         </div>
 
         {/* Stats */}
-        <div className="stats-grid grid grid-cols-2 md:grid-cols-4 gap-8 mt-24 pt-16 border-t border-primary-foreground/10">
+        <div className="stats-grid grid grid-cols-2 md:grid-cols-4 gap-8 mt-24 pt-16 border-t border-foreground/10">
           {stats.map((stat) => (
             <div key={stat.label} className="stat-item text-center">
               <div className="font-display text-4xl md:text-5xl font-bold text-gradient-gold mb-2">
