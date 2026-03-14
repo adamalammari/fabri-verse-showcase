@@ -93,7 +93,7 @@ const AboutSection = () => {
               <div className="font-display text-4xl md:text-5xl font-bold text-gradient-gold mb-2">
                 {stat.number}
               </div>
-              <div className="text-primary-foreground/50 font-body text-sm tracking-wide">
+              <div className="text-muted-foreground font-body text-sm tracking-wide">
                 {stat.label}
               </div>
             </div>

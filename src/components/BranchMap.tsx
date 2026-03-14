@@ -249,7 +249,7 @@ const BranchMap = () => {
                       <Phone className="w-4 h-4 text-gold" />
                       <span dir="ltr">{branch.phone}</span>
                     </div>
-                    <div className="flex items-center gap-2 text-primary-foreground/60 text-sm">
+                    <div className="flex items-center gap-2 text-muted-foreground text-sm">
                       <Clock className="w-4 h-4 text-gold" />
                       {branch.hours}
                     </div>
