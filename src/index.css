@@ -67,7 +67,8 @@
 
 @layer components {
   .section-dark {
-    @apply bg-primary text-primary-foreground;
+    background-color: hsl(var(--section-warm));
+    color: hsl(var(--foreground));
   }
 
   .section-light {
