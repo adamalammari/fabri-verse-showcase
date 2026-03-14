@@ -74,12 +74,12 @@ const AboutSection = () => {
           {/* Text - 2 cols */}
           <div className="lg:col-span-2 about-text" dir="rtl">
             <div className="divider-gold mb-6 !mx-0 !mr-0" />
-            <h2 className="font-display text-4xl md:text-5xl font-bold text-primary-foreground mb-6 leading-tight">
+            <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-6 leading-tight">
               تراث عريق
               <br />
               <span className="text-gradient-gold">بلمسة عصرية</span>
             </h2>
-            <p className="text-primary-foreground/60 font-body text-lg leading-relaxed mb-8">
+            <p className="text-muted-foreground font-body text-lg leading-relaxed mb-8">
               منذ أكثر من ربع قرن، نصنع الأثواب بأيدي حرفيين مهرة، نجمع بين أصالة الحرفة وأحدث تقنيات التصنيع لنقدم لكم ثوباً يليق بمقامكم.
             </p>
             <a href="#process" className="btn-gold inline-block">مراحل التصنيع</a>
@@ -87,13 +87,13 @@ const AboutSection = () => {
         </div>
 
         {/* Stats */}
-        <div className="stats-grid grid grid-cols-2 md:grid-cols-4 gap-8 mt-24 pt-16 border-t border-primary-foreground/10">
+        <div className="stats-grid grid grid-cols-2 md:grid-cols-4 gap-8 mt-24 pt-16 border-t border-foreground/10">
           {stats.map((stat) => (
             <div key={stat.label} className="stat-item text-center">
               <div className="font-display text-4xl md:text-5xl font-bold text-gradient-gold mb-2">
                 {stat.number}
               </div>
-              <div className="text-primary-foreground/50 font-body text-sm tracking-wide">
+              <div className="text-muted-foreground font-body text-sm tracking-wide">
                 {stat.label}
               </div>
             </div>

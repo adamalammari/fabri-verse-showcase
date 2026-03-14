@@ -97,7 +97,7 @@ const HeroSection = () => {
         </h1>
         <p
           ref={subtitleRef}
-          className="font-body text-primary-foreground/60 text-lg md:text-xl max-w-xl tracking-wide"
+          className="font-body text-primary-foreground/70 text-lg md:text-xl max-w-xl tracking-wide"
         >
           حيث يلتقي التراث بالتكنولوجيا الحديثة في صناعة أرقى الأثواب
         </p>

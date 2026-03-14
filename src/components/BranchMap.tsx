@@ -109,14 +109,14 @@ const BranchMap = () => {
   const active = branches.find((b) => b.id === activeBranch);
 
   return (
-    <section id="branches" ref={sectionRef} className="section-dark py-32">
+    <section id="branches" ref={sectionRef} className="py-32" style={{ backgroundColor: 'hsl(var(--section-soft))' }}>
       <div className="container mx-auto px-6">
         <div className="map-header text-center mb-16" dir="rtl">
           <div className="divider-gold mb-6" />
-          <h2 className="font-display text-4xl md:text-6xl font-bold text-primary-foreground mb-4">
+          <h2 className="font-display text-4xl md:text-6xl font-bold text-foreground mb-4">
             فروعنا في <span className="text-gradient-gold">المملكة</span>
           </h2>
-          <p className="text-primary-foreground/50 font-body text-lg">
+          <p className="text-muted-foreground font-body text-lg">
             نصل إليكم أينما كنتم بأعلى مستوى من الخدمة
           </p>
         </div>
@@ -124,7 +124,7 @@ const BranchMap = () => {
         <div className="grid lg:grid-cols-3 gap-12 items-start">
           {/* Map */}
           <div className="lg:col-span-2 map-container relative">
-            <div className="relative w-full aspect-[4/3] rounded-sm overflow-hidden bg-obsidian-deep border border-primary-foreground/10">
+            <div className="relative w-full aspect-[4/3] rounded-sm overflow-hidden bg-card border border-border">
               {/* SVG Map of Saudi Arabia */}
               <svg viewBox="0 0 100 80" className="w-full h-full">
                 {/* Simplified Saudi Arabia shape */}
@@ -228,7 +228,7 @@ const BranchMap = () => {
                 className={`p-5 border cursor-pointer transition-all duration-500 ${
                   activeBranch === branch.id
                     ? "border-gold bg-gold/10"
-                    : "border-primary-foreground/10 hover:border-gold/30"
+                    : "border-border hover:border-gold/30"
                 }`}
                 onClick={() =>
                   setActiveBranch(
@@ -236,20 +236,20 @@ const BranchMap = () => {
                   )
                 }
               >
-                <h4 className="font-display text-lg font-bold text-primary-foreground mb-2">
+                <h4 className="font-display text-lg font-bold text-foreground mb-2">
                   {branch.name}
                 </h4>
                 {activeBranch === branch.id && (
                   <div className="space-y-2 mt-3 animate-fade-up">
-                    <div className="flex items-center gap-2 text-primary-foreground/60 text-sm">
+                    <div className="flex items-center gap-2 text-muted-foreground text-sm">
                       <MapPin className="w-4 h-4 text-gold" />
                       {branch.address}
                     </div>
-                    <div className="flex items-center gap-2 text-primary-foreground/60 text-sm">
+                    <div className="flex items-center gap-2 text-muted-foreground text-sm">
                       <Phone className="w-4 h-4 text-gold" />
                       <span dir="ltr">{branch.phone}</span>
                     </div>
-                    <div className="flex items-center gap-2 text-primary-foreground/60 text-sm">
+                    <div className="flex items-center gap-2 text-muted-foreground text-sm">
                       <Clock className="w-4 h-4 text-gold" />
                       {branch.hours}
                     </div>
