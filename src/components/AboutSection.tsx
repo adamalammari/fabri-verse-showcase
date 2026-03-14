@@ -74,7 +74,7 @@ const AboutSection = () => {
           {/* Text - 2 cols */}
           <div className="lg:col-span-2 about-text" dir="rtl">
             <div className="divider-gold mb-6 !mx-0 !mr-0" />
-            <h2 className="font-display text-4xl md:text-5xl font-bold text-primary-foreground mb-6 leading-tight">
+            <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-6 leading-tight">
               تراث عريق
               <br />
               <span className="text-gradient-gold">بلمسة عصرية</span>
