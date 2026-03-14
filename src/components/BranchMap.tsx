@@ -124,7 +124,7 @@ const BranchMap = () => {
         <div className="grid lg:grid-cols-3 gap-12 items-start">
           {/* Map */}
           <div className="lg:col-span-2 map-container relative">
-            <div className="relative w-full aspect-[4/3] rounded-sm overflow-hidden bg-obsidian-deep border border-primary-foreground/10">
+            <div className="relative w-full aspect-[4/3] rounded-sm overflow-hidden bg-card border border-border">
               {/* SVG Map of Saudi Arabia */}
               <svg viewBox="0 0 100 80" className="w-full h-full">
                 {/* Simplified Saudi Arabia shape */}
