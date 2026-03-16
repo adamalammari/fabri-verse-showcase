@@ -17,6 +17,7 @@ const Index = () => {
       <BranchMap />
       <ContactSection />
       <Footer />
+      <ChatBot />
     </div>
   );
 };
