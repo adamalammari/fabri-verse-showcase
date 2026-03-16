@@ -5,6 +5,7 @@ import ProcessSection from "@/components/ProcessSection";
 import BranchMap from "@/components/BranchMap";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import ChatBot from "@/components/ChatBot";
 
 const Index = () => {
   return (
@@ -16,6 +17,7 @@ const Index = () => {
       <BranchMap />
       <ContactSection />
       <Footer />
+      <ChatBot />
     </div>
   );
 };
